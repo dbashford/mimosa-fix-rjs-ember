@@ -1,0 +1,33 @@
+{
+  "name": "mimosa-fix-rjs-ember",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbashford/mimosa-fix-rjs-ember",
+  "author": "David Bashford",
+  "description": "Fixes issue with ember beta/canary builds and r.js optimized builds",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-fix-rjs-ember"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "emberjs",
+    "ember",
+    "r.js",
+    "requirejs"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./src/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
