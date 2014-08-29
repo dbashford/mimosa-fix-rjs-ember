@@ -1,6 +1,6 @@
 {
   "name": "mimosa-fix-rjs-ember",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/dbashford/mimosa-fix-rjs-ember",
   "author": "David Bashford",
   "description": "Fixes issue with ember beta/canary builds and r.js optimized builds",
