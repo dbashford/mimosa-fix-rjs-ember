@@ -4,6 +4,8 @@ mimosa-fix-rjs-ember
 
 This addresses issues introduced with ember `1.7` beta builds.  Starting with ember `1.7`, and, I believe, only in beta/canary builds, ember defines its own  `'ember'` module id.  If you have an `'ember'` module ID also defined, r.js will get confused and not properly bundle your app.  
 
+You do not need this module if you are working with ember 1.8+.
+
 For more details, see the following:
 * https://github.com/dbashford/mimosa/issues/404
 * https://github.com/emberjs/ember.js/issues/4994
